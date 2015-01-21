@@ -1,0 +1,854 @@
+
+<!DOCTYPE html>
+
+<!--[if IEMobile]>      <html class="iemobile site__background" lang="en">            <![endif]-->
+<!--[if lt IE 7]>       <html class="no-js site__background ie6 oldie" lang="en">     <![endif]-->
+<!--[if IE 7]>          <html class="no-js site__background ie7 oldie" lang="en">     <![endif]-->
+<!--[if IE 8]>          <html class="no-js site__background ie8 oldie" lang="en">     <![endif]-->
+<!--[if IE 9]>          <html class="no-js site__background ie9" lang="en">           <![endif]-->
+
+<!--[if gt IE 8]><!-->  
+<html class="no-js site__background" lang="en"> 
+<!--<![endif]-->
+    
+  <head>
+    
+    <meta charset="UTF-8">
+    <title>Bitcoins.com - Bitcoin Directory</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Bitcoins.com">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Bitcoins.com is a comprehensive & easy to understand information site all about Bitcoin, the digital currency.">
+    <meta property="og:url" content="http://bitcoins.com">
+    <meta property="og:image" content="http://bitcoins.com/opengraph-icon.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+        
+    <script>
+    	document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1' + 'js' + '$2');
+    	/* Modernizr 2.6.2 (Custom Build) | MIT & BSD
+      * Build: http://modernizr.com/download/#-opacity-csstransforms-csstransforms3d-csstransitions-history-shiv-cssclasses-teststyles-testprop-testallprops-prefixes-domprefixes-load
+      */
+      ;window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";")+(b||""))}function B(a,b){return typeof a===b}function C(a,b){return!!~(""+a).indexOf(b)}function D(a,b){for(var d in a){var e=a[d];if(!C(e,"-")&&j[e]!==c)return b=="pfx"?e:!0}return!1}function E(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:B(f,"function")?f.bind(d||b):f}return!1}function F(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+" "+o.join(d+" ")+d).split(" ");return B(b,"string")||B(b,"undefined")?D(e,b):(e=(a+" "+p.join(d+" ")+d).split(" "),E(e,b,c))}var d="2.6.2",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n="Webkit Moz O ms",o=n.split(" "),p=n.toLowerCase().split(" "),q={},r={},s={},t=[],u=t.slice,v,w=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},x={}.hasOwnProperty,y;!B(x,"undefined")&&!B(x.call,"undefined")?y=function(a,b){return x.call(a,b)}:y=function(a,b){return b in a&&B(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=u.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(u.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(u.call(arguments)))};return e}),q.history=function(){return!!a.history&&!!history.pushState},q.opacity=function(){return A("opacity:.55"),/^0.55$/.test(j.opacity)},q.csstransforms=function(){return!!F("transform")},q.csstransforms3d=function(){var a=!!F("perspective");return a&&"webkitPerspective"in g.style&&w("@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}",function(b,c){a=b.offsetLeft===9&&b.offsetHeight===3}),a},q.csstransitions=function(){return F("transition")};for(var G in q)y(q,G)&&(v=G.toLowerCase(),e[v]=q[G](),t.push((e[v]?"":"no-")+v));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)y(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},z(""),i=k=null,function(a,b){function k(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function l(){var a=r.elements;return typeof a=="string"?a.split(" "):a}function m(a){var b=i[a[g]];return b||(b={},h++,a[g]=h,i[h]=b),b}function n(a,c,f){c||(c=b);if(j)return c.createElement(a);f||(f=m(c));var g;return f.cache[a]?g=f.cache[a].cloneNode():e.test(a)?g=(f.cache[a]=f.createElem(a)).cloneNode():g=f.createElem(a),g.canHaveChildren&&!d.test(a)?f.frag.appendChild(g):g}function o(a,c){a||(a=b);if(j)return a.createDocumentFragment();c=c||m(a);var d=c.frag.cloneNode(),e=0,f=l(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function p(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return r.shivMethods?n(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+l().join().replace(/\w+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(r,b.frag)}function q(a){a||(a=b);var c=m(a);return r.shivCSS&&!f&&!c.hasCSS&&(c.hasCSS=!!k(a,"article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}")),j||p(a,c),a}var c=a.html5||{},d=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,e=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,f,g="_html5shiv",h=0,i={},j;(function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",f="hidden"in a,j=a.childNodes.length==1||function(){b.createElement("a");var a=b.createDocumentFragment();return typeof a.cloneNode=="undefined"||typeof a.createDocumentFragment=="undefined"||typeof a.createElement=="undefined"}()}catch(c){f=!0,j=!0}})();var r={elements:c.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:c.shivCSS!==!1,supportsUnknownElements:j,shivMethods:c.shivMethods!==!1,type:"default",shivDocument:q,createElement:n,createDocumentFragment:o};a.html5=r,q(b)}(this,b),e._version=d,e._prefixes=m,e._domPrefixes=p,e._cssomPrefixes=o,e.testProp=function(a){return D([a])},e.testAllProps=F,e.testStyles=w,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+t.join(" "):""),e}(this,this.document),function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){"img"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),"object"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),"img"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i("c"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&"[object Opera]"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return"[object Array]"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(".").pop().split("?").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&"css"==i.url.split(".").pop().split("?").shift()?"c":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};
+    </script>
+
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/illustrations/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/illustrations/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/illustrations/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/illustrations/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/illustrations/apple-touch-icon-precomposed.png">
+
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+      <link rel="stylesheet" href="/assets/css/styles.css">
+      <script>
+        /* grunticon Stylesheet Loader | https://github.com/filamentgroup/grunticon | (c) 2012 Scott Jehl, Filament Group, Inc. | MIT license. */
+        window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.createElementNS||!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||window.opera&&-1===navigator.userAgent.indexOf("Chrome")),o=function(o){var r=t.document.createElement("link"),a=t.document.getElementsByTagName("script")[0];r.rel="stylesheet",r.href=e[o&&n?0:o?1:2],a.parentNode.insertBefore(r,a)},r=new t.Image;r.onerror=function(){o(!1)},r.onload=function(){o(1===r.width&&1===r.height)},r.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};grunticon( [ "/assets/icons/icons.data.svg.css", "/assets/icons/icons.fallback.css", "/assets/icons/icons.fallback.css" ] );
+      </script>
+      <noscript><link href="/assets/icons/icons.fallback.css" rel="stylesheet"></noscript>
+    <!--<![endif]-->
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link rel="stylesheet" href="/assets/css/ie-styles.css">
+      <link rel="stylesheet" href="/assets/icons/icons.ie.css">
+    <![endif]-->
+
+  </head>
+
+  <body id="top">
+    
+    <!-- /////////////////////////////////// Empty divs used for javascript hooks - do not remove! -->
+
+    <div id="js__opacity-hack"></div>
+    <div id="js__media-check"></div>
+
+    <!-- /////////////////////////////////// Site Content Container -->
+
+    <div class="js__outside-drawer" style="display: block;">
+
+      <span class="panel__shadow--subtle"></span>
+
+      <!-- /////////////////////////////////// Navigation -->
+      
+        <div class="nav-data js__data-drawer">
+          
+          <div class="data">
+
+            <div class="data__info">
+              
+              <h2 class="data__title">Live BTC Price</h2>
+
+              <div class="data__text-wrap">
+                
+                <span class="data__price">¥11,675.575</span>
+                
+                <form id="data__form" class="data__select-wrap">
+                  
+                  <!-- /////////////////////////////////// Default exchange select elements - value and content should be changed based on user choice -->
+
+                  <select name="Exchange" id="exchange_select" class="dropdown_select" data-func="dropdown" data-child="#exchange_dropdown">
+                    <option selected="selected" value="mt_gox">Mt. Gox</option>
+                    <option value="soon">Coming soon...</option>
+                  </select>
+
+                  <dl id="exchange_dropdown" class="dropdown" data-drawer="true" data-parent="#exchange_select">
+                    <dt class="round-corners box__shadow">
+                      <span class="icon-down_arrow dropdown__icon"></span>
+                      <a href="#" tabindex="-1">
+
+                      </a>
+                    </dt>
+                  </dl>
+                  
+                  <!-- /////////////////////////////////// Default currency select elements - value and content should be changed based on user choice -->
+
+                  <select name="Currency" id="currency_select" class="dropdown_select" data-func="dropdown" data-child="#currency_dropdown">
+                    <option selected="selected" value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="jpy">JPY</option>
+                    <option value="cad">CAD</option>
+                    <option value="gbp">GBP</option>
+                    <option value="chf">CHF</option>
+                    <option value="rub">RUB</option>
+                    <option value="sek">SEK</option>
+                    <option value="dkk">DKK</option>
+                    <option value="hkd">HKD</option>
+                    <option value="pln">PLN</option>
+                    <option value="cny">CNY</option>
+                    <option value="sgd">SGD</option>
+                    <option value="gbp">GBP</option>
+                    <option value="thb">THB</option>
+                    <option value="nzd">NZD</option>
+                    <option value="nok">NOK</option>
+                  </select>
+
+                  <dl id="currency_dropdown" class="dropdown" data-scroll="true" data-drawer="true" data-parent="#currency_select">
+                    <dt class="round-corners box__shadow">
+                      <span class="icon-down_arrow dropdown__icon"></span>
+                      <a href="#" tabindex="-1">
+
+                      </a>
+                    </dt>
+                  </dl>
+
+                  <input type="submit" class="dropdown_submit" value="Submit"></input>
+                  
+                </form>
+
+              </div>
+
+            </div>
+
+            <div class="data__graph">
+
+              <h2 class="data__title">Recent Price &amp; Volume</h2>
+
+              <div class="data__media">
+
+                <!--  ////////////////////////////////// The image for the data drawer should be 1440px (wide) by 300px (tall)  -->
+                <img class="data__image" src="assets/img/illustrations/data_graph.png" alt="placeholder image" />
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <nav class="nav">
+
+          <div class="nav-header">
+            
+            <a href="/" class="nav-header__logos">
+              <span class="icon-btc_mark"></span>
+              <span class="icon-BTC_logo"></span>
+            </a>
+
+            <div class="select--drop__wrap">
+              
+              <dl id="language_dropdown" class="dropdown dd__closed" data-option="flags" data-parent="#language_select">
+                <dt class="round-corners box__shadow">
+                  <span class="icon-down_arrow dropdown__icon"></span>
+                  <a href="#">
+
+                  </a>
+                </dt>
+              </dl>
+
+            </div>
+
+            <a id="click_menu" class="nav-header__toggle" data-func="toggle_nav" data-state="js__activate-menu" href="#">
+              <span class="nav-header__icon icon-mobile_menu"></span>
+            </a>
+
+          </div> 
+
+          <div class="nav-menu js__nav-drawer">
+                          
+            <div class="nav-menu__select-wrap">
+              
+              <span id="myFlag"></span>
+              <span class="icon-down_arrow nav-menu__dropdown"></span>
+
+              <form id="language_form" action="" method="GET">
+
+                <!-- /////////////////////////////////// Default language select elements - value and content should be changed based on user choice -->
+                
+                <select class="nav-menu__select dropdown_select" name="Locale" id="language_select" data-func="dropdown" data-child="#language_dropdown">
+
+                  <option selected="selected" value="en">English</option>
+                  <option value="soon">Coming soon...</option>
+
+                  <!-- ///////////////// language options for when the translations are complete...
+
+                    <option value="jp">日本語</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="cn1">繁體中文</option>
+                    <option value="cn2">简体中文</option>
+                    <option value="es">Español</option>
+                    <option value="ru">Pусский</option>
+                    <option value="dk">Nederlands</option>
+                    <option value="pl">Polski</option> 
+
+                  -->
+
+                </select>
+
+                <input type="submit" class="dropdown_submit" value="Submit"></input>
+
+              </form>
+
+            </div>
+
+            <div class="nav-menu__link nav-data__toggle">
+              
+              <span class="icon-graph_icon"></span>    
+              <a id="click_data" class="icon-up_arrow nav-data__toggle-btn" data-func="toggle_nav" data-state="js__activate-menu" href="#"></a>
+
+            </div>
+
+            <div class="nav-menu__list">
+
+                <!-- /////////////////////////////////// Note active classes to drive current page link style -->
+
+                <a class="nav-menu__link " href="/why-use-bitcoin.html">Why Use Bitcoin?</a>
+                
+                <a class="nav-menu__link " href="/how-bitcoin-works.html">How Bitcoin Works</a>
+
+                <a class="nav-menu__link " href="/getting-started.html">Getting Started</a>
+
+                <a class="nav-menu__link  active " href="/directory.html">Bitcoin Directory</a>
+
+            </div>      
+
+          </div>
+
+        </nav>
+
+      <!-- /////////////////////////////////// Page Content -->
+      
+      <header class="hero">
+        <span class="panel__shadow"></span>
+        <h2 class="hero__headline">Bitcoin Directory</h2>
+
+        <div class="hero__image-wrap">
+          <img class="hero__image" src="assets/img/illustrations/directory_hero.png" alt="People using bitcoin" />
+        </div>
+      </header>
+
+      <div class="dir">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-01" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Local Trading</h2>
+          </div>
+
+          <div id="dir-01" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Local Trading</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <p>There are a range of ways to buy bitcoins in your local area. <a href="http://localbitcoins.com" target="_blank">Localbitcoins.com</a> can be a good place to start if you just want to quickly get some bitcoins in your local currency.</p>
+              </div>
+
+              <div class="dir__item">
+                <p>The site can offer a range of ways to buy &amp; sell bitcoins locally, but as always, they may range in trustworthiness. If you are worried, using a Bitcoin Exchange or web wallet service may be better.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="exchanges" class="dir site__background--grey">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-02" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Bitcoin Exchanges</h2>
+          </div>
+
+          <div id="dir-02" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Bitcoin Exchanges</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <p>A bitcoin exchange allows you to buy and sell Bitcoin in your local currency, as well as utilize a wide range of other transaction &amp; speculation services for more advanced enthusiasts, traders, and investors. Due to security and government regulations concerning money laundering there is a short account verification process that new users are required to participate in for most exchanges.</p>
+              </div>
+
+              <div class="dir__item">
+                <p>Why use exchanges? Your Bitcoins are secure with a trusted and established exchange, and you can access more advanced trading features. However, exchanges are subject to more government regulation, and laws regarding Bitcoin have not yet been clarified in most markets. Also account verification means less account privacy.</p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item--hero">
+                <p>Top 8 Bitcoin exchanges as ranked by <a href="http://bitcoincharts.com" target="_blank">Bitcoincharts.com</a></p>
+              </div>
+
+            </div>
+
+            <div class="dir__row--flags">
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">MtGox</h3>
+                  <a class="flag__link" href="http://mtgox.com" target="_blank">mtgox.com</a>    
+                </div>
+              </div>
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">Bitstamp</h3>
+                  <a class="flag__link" href="https://www.bitstamp.net" target="_blank">bitstamp.net</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="dir__row--flags">
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">BTC China</h3>
+                  <a class="flag__link" href="https://btcchina.com" target="_blank">btcchina.com</a>
+                </div>
+              </div>
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">BTC-e</h3>
+                  <a class="flag__link" href="https://btc-e.com/" target="_blank">btc-e.com</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="dir__row--flags">
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">Bitcoin.de</h3>
+                  <a class="flag__link" href="https://www.bitcoin.de" target="_blank">bitcoin.de</a>
+                </div>
+              </div>
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">CampBX</h3>
+                  <a class="flag__link" href="https://campbx.com/" target="_blank">campbx.com</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="dir__row--flags">
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">VirtEx</h3>
+                  <a class="flag__link" href="https://www.cavirtex.com" target="_blank">cavirtex.com</a>
+                </div>
+              </div>
+
+              <div class="dir__item">
+                <div class="flag__media">
+                  <img class="flag__media-image" src="assets/img/illustrations/exchange_icon.png">
+                </div>
+                <div class="flag__media-info">
+                  <h3 class="flag__title">Bitcurex</h3>
+                  <a class="flag__link" href="https://bitcurex.com" target="_blank">bitcurex.com</a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="wallets" class="dir">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-03" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Web Wallets</h2>
+          </div>
+
+          <div id="dir-03" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Web Wallets</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <p>A bitcoin web wallet is a tool that allows you to send &amp; receive bitcoins. While some have more advanced features, they are not as in-depth as bitcoin exchanges and are designed as a way to send, receive, and manage Bitcoins much like a bank account. This also means that you should choose your web wallet like you would choose your bank.</p>
+              </div>
+
+              <div class="dir__item">
+                <p>Why use a Web wallet? Unlike desktop wallets, as the wallet is online you don't need to download the blockchain locally, freeing up space and CPU power on your PC. However, it's important to stay updated with your wallet service to be sure that they are operating legitimately. The vast majority are, but it's important to be aware.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="dir site__background--grey">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-04" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Desktop Wallets</h2>
+          </div>
+
+          <div id="dir-04" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Desktop Wallets</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <p>A desktop wallet can be a more secure way of storing your bitcoins than a web wallet because the wallet is stored on your own computer. You can send, receive, and store your Bitcoins like an online wallet. A desktop wallet can also be encrypted, copied to multiple devices (such as USB sticks), and backed-up for security.</p>
+              </div>
+
+              <div class="dir__item--underlined">
+                <p>Why use a Desktop Wallet? More control and privacy in managing your funds. However, you must download and continually update the blockchain to perform transactions, which can take up a lot of hard drive space and CPU power, not to mention a long time to download.</p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item--underlined">  
+                <h3 class="dir__item-title">Bitcoin QT</h3>
+                <p>Bitcoin-Qt is the original Bitcoin client and it builds the backbone of the network. It offers the highest levels of security, privacy, and stability. However it has fewer features and it takes a lot of space and memory.</p>
+                <p><a href="#" target="_blank">Visit Bitcoin QT</a></p>
+              </div>
+
+              <div class="dir__item--underlined">  
+                <h3 class="dir__item-title">Multibit</h3>
+                <p>MultiBit is a lightweight client that focuses on being fast and easy to use. It synchronizes with the network and is ready to use in minutes. MultiBit also supports many languages. It is a good choice for non-technical users.</p>
+                <p><a href="#" target="_blank">Check out Multibit</a></p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item--underlined">  
+                <h3 class="dir__item-title">Armory</h3>
+                <p>Armory is an advanced Bitcoin client that runs on top of Bitcoin-Qt. Expanding its features for Bitcoin power users. It offers many backup and encryption features, and it allows secure cold-storage on offline computers.</p>
+                <p><a href="#" target="_blank">Go to the Armory</a></p>
+              </div>
+
+              <div class="dir__item">  
+                <h3 class="dir__item-title">Electrum</h3>
+                <p>Electrum's focus is speed and simplicity, with low resource usage. It uses remote servers that handle the most complicated parts of the Bitcoin system, and it allows you to recover your wallet from a secret phrase.</p>
+                <p><a href="#" target="_blank">Visit Electrum</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="dir">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-05" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Mobile Wallets</h2>
+          </div>
+
+          <div id="dir-05" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Mobile Wallets</h2>
+
+            <div class="dir__row">
+
+
+              <div class="dir__item">
+                <p>Mobile wallets allow you to bring Bitcoin with you in your pocket. You can exchange coins easily and pay in physical stores by scanning a QR code or using NFC tap to pay.</p>
+              </div>
+
+              <div class="dir__item--underlined">
+                <p>Why use a Mobile Wallet? For ease of use when making payments in physical stores, Mobile Wallets are your best choice. However, they are not inherently very secure, so use with caution.</p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item--underlined">
+                <h3 class="dir__item-title">Bitcoin Wallet</h3>
+                <p>Bitcoin Wallet is a lightweight mobile client for Android and BlackBerry OS. This client does not need to be associated with any online service to work. It is compatible with QR code scanning and NFC.</p>
+                <p><a href="#" target="_blank">Get a Bitcoin Wallet</a></p>
+              </div>
+
+              <div class="dir__item--underlined">
+                <h3 class="dir__item-title">Blockchain.info</h3>
+                <p>Blockchain.info is an hybrid web wallet for mobiles. It is also available for iPhone in a restricted mode to fit Apple policies. It includes many blockchain.info features like web wallet backup.</p>
+                <p><a href="#" target="_blank">Go to Blockchain.info</a></p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <h3 class="dir__item-title">Coinbase</h3>
+                <p>Coinbase is a web wallet service that aims to be the easiest to use. It also provides an Android web wallet app, merchant tools and integration with US bank accounts to buy and sell bitcoins.</p>
+                <p><a href="#" target="_blank">Try Coinbase</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="dir site__background--grey">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-06" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Handy Tools</h2>
+          </div>
+
+          <div id="dir-06" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Handy Tools</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item--hero">
+                <h3 class="dir__item-title"><a href="https://btc.to" target="_blank">btc.to</a></h3>
+                <p>A bitcoin wallet address shortener, useful because wallet addresses are quite long.</p>
+
+                  <form class="input--dir">
+                    <input class="input__text" type="text"></input>
+                    <input class="input__button" type="submit" value="Shorten"></input>
+                  </form>
+                  
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item--underlined">
+                <h3 class="dir__item-title">Zeroblock</h3>
+                <p>One of the better iPhone BTC price ticker apps, simple and clean.</p>
+                <p><a href="#" target="_blank">Download Zeroblock</a></p>
+              </div>
+
+                      <div class="dir__item">
+                <h3 class="dir__item-title">Preev</h3>
+                <p>A simple web application that lets you see the Bitcoin exchange rate and convert any amount to or from your preferred currency.</p>
+                <p><a href="#" target="_blank">Visit preev.com</a></p>
+              </div>
+
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="dir">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-07" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Bitcoin Mining</h2>
+          </div>
+
+          <div id="dir-07" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Bitcoin Mining</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <p>Bitcoin mining at a technical level is as simple as running mining software on a range of devices, from your mobile phone to expensive dedicated hardware. Most serious Bitcoin mining is done by mining pools, with groups of people forming to pool their hardware power to increase the speed at which they can mine.</p>
+              </div>
+
+              <div class="dir__item--underlined">
+                <p>The software just solves the increasingly complex mathematical problems that are the mechanism for increasing the number of Bitcoins in circulation. Bitcoin mining is an essential part of the Bitcoin system, but it is certainly not your ticket to get rich overnight.</p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <h3 class="dir__item-title">Bitcoin Mining Software</h3>
+                <p>(list of mining software)</p>
+                <h3 class="dir__item-title">Bitcoin Mining Pools</h3>
+                <p>(list of pools)</p>
+              </div>
+
+              <div class="dir__item">
+                <h3 class="dir__item-title">Bitcoin Mining Hardware</h3>
+                <p>Butterfly Labs<br />
+                <a href="#" target="_blank">http://www.butterflylabs.com</a></p> 
+              </div>
+
+            </div>      
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="dir site__background--grey">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-08" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Security</h2>
+          </div>
+
+          <div id="dir-08" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Security</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+                <p>While Bitcoin is an accountable and decentralised currency, it is up to you to keep your Bitcoins safe, especially as Bitcoin transactions are by design non-refundable. </p>
+              </div>
+
+              <div class="dir__item--underlined">
+                <p>If that sounds daunting, don't worry – these guides and websites will shed some light on wallet security and delve a little deeper into the techniques used to keep the Bitcoin blockchain secure.</p>
+              </div>
+
+            </div>
+
+            <div class="dir__row">
+
+              <div class="dir__item--underlined">
+                <h3 class="dir__item-title">Bitcoin Security</h3>
+                <p>BitcoinTalk Bitcoin Development Forum<br />
+                <a href="#" target="_blank">https://bitcointalk.org/index.php?board=6.0</a></p>
+              </div>
+
+              <div class="dir__item">
+                <h3 class="dir__item-title">Wallet Security</h3>
+                <p>Bitcoin.org Official Security Guide<br />
+                <a href="#" target="_blank">http://bitcoin.org/en/secure-your-wallet</a></p>
+                <p>Bitcoin Security Guide<br />
+                <a href="#" target="_blank">http://bitcoinsecurity.com</a></p>          
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="dir" id="merchant-solutions">
+
+        <div class="l__contained">
+
+          <div class="dir__collapse-toggle">
+            <h2 data-target="#dir-09" class="dir__collapse-header dir__collapse__icon js__collapsed" data-toggle="collapse">Merchant Solutions</h2>
+          </div>
+
+          <div id="dir-09" class="dir__collapse-wrapper js__collapse">
+
+            <h2 class="dir__title">Merchant Solutions</h2>
+
+            <div class="dir__row">
+
+              <div class="dir__item">
+
+                <h3 class="dir__item-title--nopad">How to Accept Bitcoin Payments</h3>
+                <p><a href="https://en.bitcoin.it/wiki/Merchant_Howto">https://en.bitcoin.it/wiki/Merchant_Howto</a></p>
+
+                <h3 class="dir__item-title--nopad">Mt.Gox Merchant Tools</h3>
+                <p><a href="https://www.mtgox.com/merchant">https://www.mtgox.com/merchant</a></p>
+
+                <h3 class="dir__item-title--nopad">Bitpay</h3>
+                <p><a href="https://bitpay.com">https://bitpay.com</a></p>
+
+                <h3 class="dir__item-title--nopad">BIPS</h3>
+                <p><a href="https://bips.me">https://bips.me</a></p>
+
+                <h3 class="dir__item-title--nopad">Coinbase Merchants</h3>
+                <p><a href="https://coinbase.com/merchants">https://coinbase.com/merchants</a></p>
+
+              </div>
+
+              <div class="dir__item">
+
+                <h3 class="dir__item-title--nopad">Bit Merch</h3>
+                <p><a href="https://bitmerch.com">https://bitmerch.com</a></p>
+
+                <h3 class="dir__item-title--nopad">Bitcoin Payflow</h3>
+                <p><a href="http://www.bitcoinpayflow.com">http://www.bitcoinpayflow.com</a></p>
+
+                <h3 class="dir__item-title--nopad">BitPagos</h3>
+                <p><a href="https://www.bitpagos.net">https://www.bitpagos.net</a></p>
+
+                <h3 class="dir__item-title--nopad">Fastercoin</h3>
+                <p><a href="http://fasterco.in">http://fasterco.in</a></p>
+
+                <h3 class="dir__item-title--nopad">Coinjar</h3>
+                <p><a href="http://coinjar.io/accept_bitcoins">http://coinjar.io/accept_bitcoins</a></p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="page__end-link">
+          <a href="mailto:admin@bitcoins.com" class="link__wrapper">
+            <div class="icon-email_green link__icon"></div>
+            <div class="link__text-wrap">
+              <span class="link__text">List your Bitcoin service here</span>
+            </div>
+          </a>  
+      </div>
+
+
+
+      <!-- /////////////////////////////////// Footer -->
+      
+      <div class="footer__link-panel">
+
+        <a href="#top" class="footer__link--primary" data-func="scroll_to">
+          <div class="icon-white_arrow_up link__icon"></div>
+          <div class="link__text-wrap">
+            <span class="link__text--rev">Back to top</span>
+          </div>
+        </a>
+
+      </div>
+
+      <footer class="footer">
+
+        <div class="l__contained">
+
+          <h2 class="footer__text">Want to get updates on Bitcoin?</h2>
+
+          <p class="footer__sub-text">Sign up for our email newsletter. Once a month, no spam, ever.</p>
+
+          <form id="email__form" class="input--footer invalid" novalidate="novalidate">
+            <input id="email__input" class="input__text" type="email" spellcheck='false' placeholder="Enter your e-mail address" required></input>
+            <input id="email__submit" class="input__button" type="submit" value="Sign up"></input>
+          </form>
+
+        </div>    
+
+        <div class="footer-icons__container">
+          <span class="footer__icon-box"><a class="icon-twitter footer__icon" href="http://twitter.com/intent/tweet?text=Bitcoins.com+is+a+comprehensive+%26+easy+to+understand+information+site+all+about+Bitcoin%2C+the+digital+currency.&url=http://bitcoins.com" target="_blank"></a></span>
+          <span class="footer__icon-box"><a class="icon-reddit footer__icon" href="http://www.reddit.com/submit?url=bitcoins.com" target="_blank"></a></span>
+          <span class="footer__icon-box"><a class="icon-facebook footer__icon" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fbitcoins.com" target="_blank"></a></span>
+         
+        </div>
+
+        <div class="footer__disclaimer-wrap">
+
+          <span class="panel__shadow--footer"></span>
+
+          <a class="footer__collapse" href="#disclaimer" data-toggle="collapse">Copyright &amp; Disclaimer</a>
+
+          <div id="disclaimer" class="footer__disclaimer js__collapse">
+
+            <p>This website belongs to and is operated by Tibanne Co., Ltd, the parent company of MtGox Co., Ltd. MtGox Co., Ltd. operates one of the world's largest Bitcoin exchange at <a href="https://mtgox.com" target="_blank">mtgox.com</a>. Except for <a href="https://mtgox.com" target="_blank">mtgox.com</a>, all services and sites listed or recommended on this site are not affiliated with Tibanne Co., Ltd or MtGox Co., Ltd. Lists and recommendations are provided only for convenience and do not represent an endorsement or guarantee by Tibanne Co., Ltd or MtGox Co., Ltd of these services and sites. No claim shall be accepted and Tibanne Co., Ltd and MtGox Co., Ltd. shall not assume any liability or responsibility with regard to these services and sites.</p>
+            
+          </div>
+
+        </div>
+        
+      </footer>
+
+    </div>
+
+<!-- /////////////////////////////////// Scripts -->
+<script src="assets/app-js/production/app.min.js"></script>
+<script src="assets/scripts/scripts.js"></script>
+
+</body>
+  
+</html>
